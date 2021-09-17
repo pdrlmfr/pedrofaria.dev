@@ -1,0 +1,121 @@
+/*Root*/
+:root {
+  --bg-color: #17171c;
+  --bg-color2: #f5f5f5;
+  --font-color: #fff;
+  --font-color-2: #c0c0c0;
+  --font-color-3: #fff;
+}
+
+/*Reset*/
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--bg-color);
+  color: #fff;
+  color: var(--font-color);
+  padding: 30px;
+}
+
+html {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*Header*/
+header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+header img {
+  border-radius: 50%;
+  border: 3px solid var(--bg-color2);
+  height: 125px;
+  margin-bottom: 30px;
+  width: 125px;
+}
+header p {
+  color: var(--font-color-2);
+  font-size: 120%;
+}
+
+/*Cards*/
+section article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
+section article a {
+  flex-basis: 200px;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin: 10px;
+  text-decoration: none;
+}
+iframe {
+  margin: 20px auto 0px auto;
+  max-width: 600px;
+}
+section article div {
+  align-items: center;
+  border-radius: 8px;
+  border: 3px solid var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100px;
+  padding: 4px;
+}
+section article div:hover {
+  border: 3px solid var(--bg-color2);
+}
+section article div .iconify {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+section article div h3 {
+  color: var(--font-color-3);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: center;
+}
+.instagram {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+.linkedin {
+  background: #00a0dc;
+  background: linear-gradient(90deg, #00a0dc 0%, #006699 100%);
+}
+.github {
+  background: linear-gradient(58deg, #80ed99 8%, #38a3a5 98%);
+}
+.twitter {
+  background: linear-gradient(58deg, #7dedff 8%, #185adb 98%);
+}
+.donate {
+  background: rgb(231, 203, 111);
+  background: linear-gradient(
+    90deg,
+    rgb(243, 124, 45) 0%,
+    rgb(241, 238, 18) 100%
+  );
+}
