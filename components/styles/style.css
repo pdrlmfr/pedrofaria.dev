@@ -119,3 +119,9 @@ section article div h3 {
     rgb(241, 238, 18) 100%
   );
 }
+
+/*Footer*/
+footer p {
+  padding-top: 50px;
+  text-align: center;
+}
