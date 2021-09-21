@@ -121,7 +121,38 @@ section article div h3 {
 }
 
 /*Footer*/
-footer p {
+footer {
   padding-top: 50px;
   text-align: center;
+}
+
+footer p {
+  display: inline-block;
+}
+
+/*Hearbeat animation*/
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+
+.heart {
+  animation: heartbeat 1s infinite;
+  font-size: 22px;
 }
